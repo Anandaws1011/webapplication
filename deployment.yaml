@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-app-ip
-        image: anandapp/web-app-ip
+        image: anandapp/webappip
         ports:
         - containerPort: 8080
   
