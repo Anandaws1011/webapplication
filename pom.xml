@@ -11,7 +11,7 @@
     <name>My Web Application</name>
 
     <dependencies>
-         Servlet API for Java web applications 
+        <!-- Servlet API for Java web applications -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -19,7 +19,7 @@
             <scope>provided</scope>
         </dependency>
         
-         JUnit for testing 
+        <!-- JUnit for testing -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -27,12 +27,12 @@
             <scope>test</scope>
         </dependency>
 
-         Add other dependencies as needed 
+        <!-- Add other dependencies as needed -->
     </dependencies>
 
     <build>
         <plugins>
-            Maven WAR plugin for packaging WAR files 
+            <!-- Maven WAR plugin for packaging WAR files -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -42,4 +42,3 @@
     </build>
 </project>
 
-	
