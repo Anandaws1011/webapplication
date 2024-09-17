@@ -18,5 +18,5 @@ spec:
       - name: web-app-ip
         image: anand2592/webappip
         ports:
-        - containerPort: 8090
+        - containerPort: 8080
   
