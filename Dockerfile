@@ -8,7 +8,7 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 8090
 
 CMD ["python", "web_app.py"]
 
